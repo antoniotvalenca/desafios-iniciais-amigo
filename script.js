@@ -45,7 +45,7 @@ const trafficLight = () => {
 
     counter = 0;
 
-    let counterGeneral = setInterval(() => {
+    let counterGeneral = setInterval( () => {
         counter++;
 
         if (counter <= TIME_OPENED) {
